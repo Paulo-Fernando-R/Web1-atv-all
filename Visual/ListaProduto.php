@@ -1,5 +1,7 @@
 <?php
-session_start();
+      
+      include("./LoginVerifica.php");
+    
 ?>
 <!DOCTYPE html>
 <html lang="br">
@@ -10,6 +12,9 @@ require_once _BASE . '/DAO/Conexao.php';
 require_once _BASE . '/Modelo/Produto.php';
 require_once _BASE . '/DAO/DAOProduto.php';
 ?>
+
+
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

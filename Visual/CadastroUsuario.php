@@ -1,5 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="br">
+
+<?php
+      
+      include("./LoginVerifica.php");
+    
+?>
     
 <?php
 define('_BASE', $_SERVER['DOCUMENT_ROOT'] . '/Web1 atv all/');

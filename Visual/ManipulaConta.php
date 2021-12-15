@@ -7,8 +7,16 @@
     require_once _BASE . '/DAO/Conexao.php';
     require_once _BASE . '/Modelo/Conta.php';
     require_once _BASE . '/DAO/DAOConta.php';
+
+
 ?>
 
+
+<?php
+      
+      include("./LoginVerifica.php");
+    
+?>
 
 <head>
     <meta charset="UTF-8">

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="../CSS/CadastroConta.css">
 </head>
 <body>
+
+<?php
+      
+      include("./LoginVerifica.php");
+    
+?>
     
 
 <div class="divisao">
@@ -41,7 +47,8 @@
                 }
                  
             ?>
-            <input type="hidden" name="id" value="<?php echo $id; ?>">
+            
+            <input type="hidden" name="id" value="<?php echo $id;?>">
 
             <div class="campos">
                 <label for="nome">Nome</label>

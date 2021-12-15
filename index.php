@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>inicio</title>
     <link rel="stylesheet" href="./CSS/Custom.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
 </head>
 <body>
@@ -50,32 +51,32 @@
     </div>
 
     <div class="cardsbox" >
-        <div class="card">
-           <h2 class="legenda">Alguma coisa</h2>
+        <div class="card" data-aos="fade-left">
+           <h2 class="legenda">Controle de contas</h2>
         </div>
 
-        <div class="card">
-            <h2 class="legenda">Alguma coisa</h2>
+        <div class="card" data-aos="fade-left">
+            <h2 class="legenda">Controle de fornecedores</h2>
         </div>
     </div>
 
    
     <div class="cardsbox" >
-        <div class="card">
-            <h2 class="legenda">Alguma coisa</h2>
+        <div class="card" data-aos="fade-right">
+            <h2 class="legenda">Controle de clientes</h2>
         </div>
     
-        <div class="card">
-            <h2 class="legenda">Alguma coisa</h2>
+        <div class="card" data-aos="fade-right">
+            <h2 class="legenda">Controle de produtos</h2>
         </div>
     </div>
 
     
-    <div id="fundoFalas">
+    <div id="fundoFalas" data-aos="fade-up">
         
         <div style="width: 30%;">
-             <h1 style="padding-top: 50pt; text-align: center;" class="tituloFalas">Você ainda usa papel para organizar seus gastos?</h1>
-             <h1 style="text-align: center; padding-right: 5pt; padding-top: 70%;" class="tituloFalas">Venha se tornar digital conosco</h1>
+             <h1 style="padding-top: 50pt; text-align: center;" class="tituloFalas">Você ainda usa papel para organizar seus gastos?</h1 data-aos="fade-up">
+             <h1 style="text-align: center; padding-right: 5pt; padding-top: 70%;" class="tituloFalas">Venha se tornar digital conosco</h1 data-aos="fade-up">
             
         </div>
        
@@ -100,10 +101,7 @@
                 <h1 style="padding-left: 3vh;" class="textoRodape"> <?php echo $_SESSION['usuario'];?></h1>
                 <H1 style="padding-left: 3vh;" class="textoRodape"> <a class="textoRodape" style="font-size: 2vh;" href="./Visual/Logout.php">Sair</a></H1>
             </div>
-            
-           
-          
-            
+             
         </div>
 
         <div style="width: 40%; display: flex; justify-content: start; align-items: center;">
@@ -113,12 +111,15 @@
         </div>
         
      </div>
-    
-    
 
-  
-  
-    
     <script src="./js/LinkPags.js"></script>
+
+    <script  src = " https://unpkg.com/aos@next/dist/aos.js "> </script> 
+    <script> 
+        AOS.init ({
+            duration: 1000
+        }); 
+    </script>
+
 </body>
 </html>

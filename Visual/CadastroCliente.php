@@ -1,8 +1,16 @@
 <?php
-session_start();
+      
+      include("./LoginVerifica.php");
+    
 ?>
 <!DOCTYPE html>
 <html lang="br">
+
+<?php
+      
+      include("./LoginVerifica.php");
+    
+?>
 
 <?php
 

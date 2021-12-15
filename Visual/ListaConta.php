@@ -1,8 +1,10 @@
 <?php
-session_start();
+      
+      include("./LoginVerifica.php");
+    
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <?php
 
@@ -11,6 +13,8 @@ require_once _BASE . '/DAO/Conexao.php';
 require_once _BASE . '/Modelo/Conta.php';
 require_once _BASE . '/DAO/DAOConta.php';
 ?>
+
+
 
 <head>
     <meta charset="UTF-8">

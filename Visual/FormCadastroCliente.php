@@ -10,6 +10,12 @@
 <body>
 </div>
 
+<?php
+      
+      include("./LoginVerifica.php");
+    
+?>
+
 <div class="divisao2"></div>
 
 <div class="quadro">

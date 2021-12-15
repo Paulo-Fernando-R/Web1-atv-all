@@ -1,5 +1,7 @@
 <?php
-session_start();
+      
+      include("./LoginVerifica.php");
+    
 ?>
 <!DOCTYPE html>
 <html lang="br">
@@ -10,6 +12,8 @@ session_start();
     <title>Document</title>
     <link rel="stylesheet" href="../CSS/CadastroConta.css">
 </head>
+
+
 
 <?php
     define('_BASE', $_SERVER['DOCUMENT_ROOT'] . '/Web1 atv all/');
